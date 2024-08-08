@@ -24,7 +24,7 @@ export default function Comment({userImagePath , username, commentText, likeNum,
           >
             <span className="fw-semibold">{username}</span>
             <br />
-            <span>commentText</span>
+            <span>{commentText}</span>
             <div className="d-flex align-items-center gap-1">
               <img src="/like.svg" width={20}></img>
               <span className="text-muted">{likeNum} คน</span>
