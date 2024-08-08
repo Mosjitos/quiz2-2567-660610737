@@ -29,14 +29,6 @@ export default function Comment({userImagePath , username, commentText, likeNum,
               <span className="text-muted">{likeNum} คน</span>
             </div>
           </div>
-          {comments.map((Comm) => (
-            <Comm 
-            userImagePath={userImagePath}
-            username={username}
-            likeNum={likeNum}
-            replies={replies}
-            />
-          ))}
   </div>
   );
 }
